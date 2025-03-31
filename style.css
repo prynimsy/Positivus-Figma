@@ -1,0 +1,325 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar {
+  float: right;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+a:hover {
+  background-color: #b9ff66;
+  border-radius: 100px;
+}
+
+#demo-btn {
+  border: 1px solid #191a23;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.consult-btn {
+  padding: 12px 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.consult-btn:hover {
+  background-color: #b9ff66;
+  color: #191a23;
+  border: 1px solid #191a23 ;
+}
+
+.image svg {
+  width: 400px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.partners img {
+  width: 100px;
+  opacity: 0.9;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.partners img:hover{
+  filter: grayscale(0%);
+}
+
+.services {
+  padding: 0px 80px;
+}
+
+.services-heading{
+  display: flex;
+}
+
+.services h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.service-header{
+  display: flex;
+}
+
+.service-header p{
+  margin-left: 30px;
+}
+
+.highlight {
+  background-color: #B2FF59;
+  padding: 4px 8px;
+  border-radius: 5px;
+  
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.service-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card h4 {
+  flex: 1;
+}
+
+.service-card img {
+  width: 100px; 
+  max-width: 50%;
+  margin-left: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.light {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.green {
+  background-color: #B2FF59;
+}
+
+.green .learn-more:hover {
+  background-color: white;
+  color: #191a23;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.tag {
+  background-color: black;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.green .tag {
+  background-color: #222;
+  color: #B2FF59;
+}
+
+.learn-more {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+img.icon{
+  width: 30px;
+  max-width: 40%;
+  margin-right: 5px;
+}
+
+
+.dark .learn-more {
+  color: white;
+}
+
+.dark .learn-more:hover {
+  color: #191a23;
+}
+
+
+.cta-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding: 0px 80px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.cta-content {
+  margin-right: 0;
+  align-items: center;
+}
+
+.cta-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cta-content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: black;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background: #333;
+}
+
+.cta-image img {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.case-studies {
+  margin-top: 60px;
+  padding: 0px 80px;
+}
+
+.case-studies-header {
+  display: flex;
+  align-items: center;
+}
+
+.case-studies h2 span {
+  background: #C8FF62;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.case-study-grid {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.case-study {
+  flex: 1;
+  padding: 0 20px;
+  text-align: left;
+  border-right: 1px solid #444;
+}
+
+.case-study:last-child {
+  border-right: none;
+}
+
+.case-study p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.case-study a {
+  color: #C8FF62;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.case-study a:hover {
+  text-decoration: underline;
+  color: #191a23;
+}
+
